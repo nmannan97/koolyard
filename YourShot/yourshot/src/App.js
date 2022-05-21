@@ -1,9 +1,12 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
 
-import Mainpage from "./pages/Mainpage";
-import About from './pages/About'
 import Login from './pages/Login'
+import Homescreen from "./pages/Homescreen";
+import Messages from './pages/Messages';
+import Explore from './pages/Explore';
+import Notifications from './pages/Notifications';
+import Profile from './pages/Profile';
 
 export default function App() {
   return (
@@ -13,11 +16,17 @@ export default function App() {
           Your shot
         </div>
       </header>
+      
       <div className="menu">
+        
+
         <Routes>
           <Route exact path='/' element={<Login/>} />
-          <Route exact path='/mainpage' element={<Mainpage/>}/>
-          <Route exact path='/about' element={<About />}/>
+          <Route exact path='/homescreen' element={<Homescreen/>}/>
+          <Route exact path='/messages' element={<Messages/>}/>
+          <Route exact path='/explore' element={<Explore/>}/>
+          <Route exact path='/notifications' element={<Notifications/>}/>
+          <Route exact path='/profile' element={<Profile/>}/>
         </Routes>
       </div>
   </div>
