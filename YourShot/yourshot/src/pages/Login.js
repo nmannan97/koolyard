@@ -17,7 +17,7 @@ function Login() {
 
     let navigate = useNavigate();
     const routeChange = () =>{
-        navigate('/startup-app/mainpage')
+        navigate('/mainpage')
     }
     const logValue = () => {
         if(username=="username" && password == "password"){
