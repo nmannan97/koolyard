@@ -1,0 +1,100 @@
+.item {
+  
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    width: 30vmin;
+    height: auto;
+    background: white;
+    border: 2px solid black;
+    object-fit: contain;
+  }
+  
+  .genFontLarge{
+    font-size: 5em;
+    color: white;
+    text-shadow: 1px 1px 10 black;
+    opacity: 100%;
+  }
+  .genFontSmall{
+    font-size: 1.5em;
+    color: rgb(25, 25, 151);
+    text-shadow: 1px 1px 10 black;
+  }
+  /* IDs */
+  #background{
+    
+    justify-content: center;
+    background: url("../pictures/Blueprint.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
+  
+  #Title{
+    width: 100%;
+    background-color: #c2b280;
+    transition-duration: 0.5s;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #Title:hover{
+    text-align: center;
+    background-color: #c2b280;
+    color: black;
+    font-size: calc(5px + 15vmin);
+    align-items: center;
+  }
+  
+  #missionStatement{
+    
+    width: calc(fit-content + 5px);
+    align-self: center;
+    padding: 5px;
+  }
+  #missionStatement1{
+    text-align: left;
+  
+    min-width: 20vw;
+    max-width: 90vmin;
+  
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 60vw;
+    margin: 0px auto;
+    transition: 0.5s;
+  }
+  
+  #missionStatement1:hover{
+    text-align: left;
+  
+    min-width: 20vw;
+    max-width: 90vmin;
+  
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: white;
+    width: 100vmin;
+    margin: 0px auto;
+  }
+  #projects {
+    min-width: 20vw;
+    max-width: 90vmin;
+    background-color: black;
+    opacity: 80%;
+    margin: 0 auto;
+    font-size: 3em;
+    color: white;
+  }
+  
+  /* tags */
+  img {
+    height: 80%;
+    width: 80%;
+    object-fit: scale-down;
+  }
+  
+  div{
+    padding: 10px auto; 
+    margin-right: 10px;
+  }
