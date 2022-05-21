@@ -1,10 +1,10 @@
-import './Homescreen.css';
+import './Messages.css';
 import Navbar from '../Navbar';
 
 function Messages(){
     return(
         <>
-        <div id="mainpage">
+        <div id="messages">
             <Navbar />
             Hello there from the messages
         </div>

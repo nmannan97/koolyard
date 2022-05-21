@@ -1,10 +1,10 @@
-import './Homescreen.css';
+import './Explore.css';
 import Navbar from '../Navbar';
 
 function Explore(){
     return(
         <>
-        <div id="mainpage">
+        <div id="explore">
             <Navbar />
             Hello there from the explore
         </div>
