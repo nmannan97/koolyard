@@ -1,5 +1,5 @@
 import './Messages.css';
-import Navbar from '../Navbar';
+import Navbar from '../../Navbar';
 
 function Messages(){
     return(

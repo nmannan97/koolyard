@@ -1,5 +1,5 @@
 import './Homescreen.css';
-import Navbar from '../Navbar';
+import Navbar from '../../Navbar';
 
 function Homescreen(){
     return(

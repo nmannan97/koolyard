@@ -1,12 +1,14 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
 
-import Login from './pages/Login'
-import Homescreen from "./pages/Homescreen";
-import Messages from './pages/Messages';
-import Explore from './pages/Explore';
-import Notifications from './pages/Notifications';
-import Profile from './pages/Profile';
+import Login from './user/pages/Login'
+import Homescreen from "./user/pages/Homescreen";
+import Messages from './user/pages/Messages';
+import Explore from './user/pages/Explore';
+import Notifications from './user/pages/Notifications';
+import Profile from './user/pages/Profile';
+
+import logo from './Logo.PNG'
 
 export default function App() {
   return (
@@ -15,6 +17,7 @@ export default function App() {
         <div id="Title">
           Your shot
         </div>
+        <img className="Logo" src={logo} />
       </header>
       
       <div className="menu">

@@ -1,0 +1,15 @@
+#Username{
+    width: 10vw;
+    height: 10vw;
+}
+
+/*Class names*/
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.item {
+    width: 50%;
+  }

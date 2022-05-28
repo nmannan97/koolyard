@@ -28,10 +28,17 @@ function Login() {
     }
 
     return (
-        <div>
+        <div id="login">
+            <p>Sign in</p>
             <input onChange={userHandle} type="text" name="Username" id = "Username" placeholder="username"></input>
             <input onChange={passHandle} type="password" name="Password" id = "Password" placeholder="password"></input>
             <button onClick={logValue}>Sign in</button>
+            <br/>
+            <p>Create account</p>
+            <div className="container">
+                <div className="item"><p>Clients</p></div>
+                <div className="item"><p>Users</p></div>
+            </div>
         </div>
     );
 }
