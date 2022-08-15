@@ -18,6 +18,7 @@
 }
 
 .item {
-    width: 50%;
+    justify-content: center;
     padding: 20px;
+    margin: auto;
 }

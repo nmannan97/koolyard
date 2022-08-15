@@ -1,15 +1,15 @@
-import './Homescreen.css';
+import './Photographer.css';
 import Navbar from '../../Navbar';
 
-function Homescreen(){
+function Photographer(){
     return(
         <>
         <div id="mainpage">
             <Navbar />
-            Hello there from the mainpage
+            Hello there from the Photographer page
         </div>
         </>
     );
 }
 
-export default Homescreen;
+export default Photographer;

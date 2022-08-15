@@ -32,12 +32,7 @@ function Login() {
         <div id="login">
             
             <div className="container">
-                <div className="item">
-                    <p>Sign in clients</p>
-                    <input onChange={userHandle} type="text" name="Username" id = "Username_clients" placeholder="username"></input>
-                    <input onChange={passHandle} type="password" name="Password" id = "Password_clients" placeholder="password"></input>
-                    <button onClick={logValue}>Sign in</button>
-                </div>
+
                 <div className="item">
                     <p>Sign in users</p>
                     <input onChange={userHandle} type="text" name="Username" id = "Username_users" placeholder="username"></input>
@@ -50,9 +45,6 @@ function Login() {
             <br/>
             <p>Create account</p>
             <div className="container">
-                <div className="item">
-                    <p>Clients</p>
-                </div>
                 <div className="item">
                     <p>Users</p>
                 </div>
