@@ -16,7 +16,7 @@ export default function App() {
   <div className="App"> 
       <header className="App-header">
         <div id="Title">
-          Your shot
+          Yourshot
         </div>
         <img className="Logo" src={logo} />
       </header>

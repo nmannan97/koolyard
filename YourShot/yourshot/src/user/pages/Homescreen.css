@@ -1,0 +1,53 @@
+/*IDs */
+#welcome_homepage{
+    background-color: #000080;
+    font-size: 4em;
+    padding: 0px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#homepage_about{
+    font-size: 5em;
+}
+#homepage_meet_the_team{
+    background-color: #000080;
+}
+/*Classnames */
+.homepage_background{
+    background-color: #9370db;
+    width: 100%;
+    text-align: center;
+}
+
+.homepage_container{
+    column-count: 2;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.homepage_item{
+    width: 50%;
+    margin: auto;
+    border-radius: 15px 50px;
+}
+
+.homepage_polaroid{
+    position: relative;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-size: xx-large;
+}
+
+/*Tags */
+img {
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    object-fit: scale-down;
+}

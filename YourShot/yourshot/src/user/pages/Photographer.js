@@ -4,7 +4,7 @@ import Navbar from '../../Navbar';
 function Photographer(){
     return(
         <>
-        <div id="mainpage">
+        <div id="photographers">
             <Navbar />
             Hello there from the Photographer page
         </div>
