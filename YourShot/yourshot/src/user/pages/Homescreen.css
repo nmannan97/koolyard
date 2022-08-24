@@ -1,14 +1,14 @@
 /*IDs */
 #welcome_homepage{
     background-color: #000080;
-    font-size: 4em;
-    padding: 0px;
+    padding: 30px;
     margin: 0;
     color: white;
     text-align: center;
+    font: italic 6em "Fira Sans", serif;
 }
 #homepage_about{
-    font-size: 5em;
+    font: italic 6em "Fira Sans", serif;
 }
 #homepage_meet_the_team{
     background-color: #000080;
@@ -18,36 +18,52 @@
     background-color: #9370db;
     width: 100%;
     text-align: center;
+    padding: 50px;
 }
 
 .homepage_container{
-    column-count: 2;
     justify-content: center;
     text-align: center;
     padding: 10px;
+    
 }
 
 .homepage_item{
     width: 50%;
     margin: auto;
-    border-radius: 15px 50px;
 }
 
 .homepage_polaroid{
-    position: relative;
     display: flex;
+    position: relative;
+    top: 8px;
+    margin: auto;
+    width: auto;
+    height: 400px;
+    text-align: center;
     background-color: white;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: auto;
+    padding-top: 40px;
     font-size: xx-large;
+    margin: 30px;
 }
 
+.homepage_meet_the_team{
+    text-align: center;
+    justify-content: center;
+    font: italic 5em "Fira Sans", serif;
+    margin: 0;
+    padding: 10px;
+}
+.homepage_generic_font{
+    font: italic 1.5em "Fira Sans", serif;
+}
 /*Tags */
-img {
-    position: absolute;
+.img_polaroid {
     width: 15%;
     border-radius: 100%;
     object-fit: scale-down;
+    position: absolute;
+    top: 40%;
+
 }
