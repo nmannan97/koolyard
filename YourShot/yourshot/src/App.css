@@ -3,6 +3,8 @@
   margin: auto;
   vertical-align: top;
   text-align: center;
+  font: italic 2em "Fira Sans", serif;
+
 }
 
 .App{
@@ -22,6 +24,7 @@
   justify-content: center;
   font-size: calc(50px + 2vmin);
   color: white;
+  padding-top: 10px;
   
 }
 
