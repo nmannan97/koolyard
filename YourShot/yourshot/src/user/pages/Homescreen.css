@@ -35,18 +35,20 @@
 }
 
 .homepage_polaroid{
-    display: flex;
+    display: block;
     position: relative;
     top: 8px;
     margin: auto;
     width: auto;
-    height: 400px;
     text-align: center;
     background-color: white;
     justify-content: center;
-    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
     font-size: xx-large;
     margin: 30px;
+    min-height: 40vh;
+    word-wrap: break-word;
 }
 
 .homepage_meet_the_team{
@@ -55,16 +57,18 @@
     font: italic 5em "Fira Sans", serif;
     margin: 30px;
     padding: 10px;
+    display: block;
+    
 }
 .homepage_generic_font{
     font: italic 3em "Fira Sans", serif;
+    color: black;
 }
 /*Tags */
 .img_polaroid {
     width: 15%;
     border-radius: 100%;
     object-fit: scale-down;
-    position: absolute;
-    top: 40%;
-
+    vertical-align: bottom;
+    justify-content: center;
 }

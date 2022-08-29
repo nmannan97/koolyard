@@ -21,15 +21,18 @@ function Homescreen(){
                         <div className="homepage_item">
                             <div className="homepage_polaroid">
                                 <p className='homepage_generic_font'>Naeem</p>
-                                <img className = "img_polaroid" src={Naeem} />                                 
+                                <img className = "img_polaroid" src={Naeem} />  
+                                <p className='homepage_generic_font'>An electrical engineer from SJSU working on the frontend of YourShot</p>                           
                             </div>
                             <div className="homepage_polaroid">
                                 <p className='homepage_generic_font'>James</p>
-                                <img className = "img_polaroid" src={NoUser} />   
+                                <img className = "img_polaroid" src={NoUser} /> 
+                                <p className='homepage_generic_font'>An Software engineer from SJSU working on the backend of YourShot</p>    
                             </div>
                             <div className="homepage_polaroid">
                                 <p className='homepage_generic_font'>Yana</p>
-                                <img className = "img_polaroid" src={NoUser} />   
+                                <img className = "img_polaroid" src={NoUser} />   \
+                                <p className='homepage_generic_font'>The main photographer of YourShot</p>    
                             </div>
                         </div>
                     </div>
