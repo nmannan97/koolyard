@@ -1,6 +1,5 @@
 /*IDs */
 #welcome_homepage{
-    background-color: #000080;
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -12,11 +11,12 @@
     font: italic 6em "Fira Sans", serif;
 }
 #homepage_meet_the_team{
-    background-color: #000080;
+    color: white;
+
 }
 /*Classnames */
 .homepage_background{
-    background-color: #9370db;
+    color: white;
     width: 100%;
     text-align: center;
     padding: 50px;
@@ -57,7 +57,7 @@
     padding: 10px;
 }
 .homepage_generic_font{
-    font: italic 1.5em "Fira Sans", serif;
+    font: italic 3em "Fira Sans", serif;
 }
 /*Tags */
 .img_polaroid {
