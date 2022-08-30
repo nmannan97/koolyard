@@ -3,6 +3,7 @@ import Navbar from '../../Navbar';
 import NoUser from '../pictures/noUser.png'
 //Images
 import Naeem from "../pictures/teammates/Naeem.jpeg"
+import Footer from '../../Footer';
 
 function Homescreen(){
     return(
@@ -37,6 +38,7 @@ function Homescreen(){
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     );

@@ -1,0 +1,19 @@
+/* IDs*/
+#footer{
+    background-color: #333333;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    min-width: 100vw;
+    min-height: 10vh;    
+}
+
+#footer_social_media{
+    justify-content: right;
+}
+
+/*ClassNames */
+.footer_font{
+    font: italic 2em "Fira Sans", serif;
+    color: white;
+}

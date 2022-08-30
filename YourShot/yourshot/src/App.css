@@ -8,17 +8,15 @@
 }
 
 .App{
-  background: url(../public/AppBackground.png);
+  background: url(../public/Elipses.png);
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
 
 .App-header {
-  background: url(../public/Space.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  
   min-height: 50vh;
   display: block;
   justify-content: center;

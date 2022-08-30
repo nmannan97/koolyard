@@ -1,4 +1,7 @@
 /*IDs */
+#homepage{
+    max-height: fit-content;
+}
 #welcome_homepage{
     padding: 30px;
     margin-top: 50px;

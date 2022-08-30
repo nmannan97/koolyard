@@ -9,17 +9,9 @@ import Notifications from './user/pages/Notifications';
 import Profile from './user/pages/Profile';
 import Photographer from './user/pages/Photographer';
 
-import logo from './Logo.PNG'
-
 export default function App() {
   return (
   <div className="App"> 
-      <header className="App-header">
-        <div id="App_Title">
-          Yourshot
-        </div>
-        <img className="Logo" src={logo} />
-      </header>
       
       <div className="menu">   
         <Routes>

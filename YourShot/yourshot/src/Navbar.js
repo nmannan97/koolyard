@@ -1,11 +1,15 @@
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 
+import Logo from "./user/pictures/YourShotLogo2.PNG"
 function Navbar(){
     return(
         <>
         <nav className="navbar">
-            <img className="brand" src=''/>
+            <div className="navbar_container">
+                <img className="brand" src={Logo}/>
+                <p className='navbar_font'> Yourshot </p>
+            </div>
             <ul>
                 <li>
                     <Link to='/homescreen'>Home screen</Link>

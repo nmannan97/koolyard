@@ -4,6 +4,7 @@ import "./Login.css"
 import {useNavigate} from "react-router-dom";
 import {useState} from 'react';
 
+import Logo from "../pictures/Logo.PNG" // C:\Users\balto\Desktop\James\YourShot\yourshot\src\user\pictures
 function Login() {
 
     const[username, setUsername] = useState("")
@@ -31,24 +32,25 @@ function Login() {
     return (
         <div id="login">
             
-            <div className="container">
+            <div className="login_container">
 
-                <div className="item">
-                    <p>Sign in users</p>
+                <div className="login_item">
+                    <p className="login_font">Sign in users</p>
                     <input onChange={userHandle} type="text" name="Username" id = "Username_users" placeholder="username"></input>
                     <input onChange={passHandle} type="password" name="Password" id = "Password_users" placeholder="password"></input>
-                    <button onClick={logValue}>Sign in</button>
+                    <button id="login_signin" onClick={logValue}>Sign in</button>
                 </div>
                 
             </div>
             
             <br/>
-            <p>Create account</p>
-            <div className="container">
-                <div className="item">
-                    <p>Users</p>
+            
+            <div className="login_container">
+                <div className="login_item">
+                    <p className="login_font">Create account</p>
                 </div>
             </div>
+            <img src={Logo} id="login_centerpiece"/>
         </div>
     );
 }
