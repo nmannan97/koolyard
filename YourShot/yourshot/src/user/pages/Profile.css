@@ -1,6 +1,7 @@
 #client_column {
-    display: flex;
-    padding: 20px 20px;
+    display: absolute;
+    padding-top: 45vh;
+    padding-bottom:  20px;
 }
 
 #client_row{
@@ -9,8 +10,83 @@
     padding: 20px 20px;
     border: dotted;
 }
+#profile_user{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -3.5%;
+    left: 20%;
+    transition: 0.5s;
+}
+#profile_user:hover{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -8%;
+    left: 15%;
+    transition: 0.5s;
+}
+#profile_message{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -3.5%;
+    left: 80%;
+}
+#profile_share{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -3.5%;
+    left: 70%;
+}
+#profile_select{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -3.5%;
+    left: 90%;
+}
+#profile_select2{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 0%;
+    position: absolute;
+    top: -2%;
+    left: 92%;
+    background-color: transparent;
+}
+#profile_background1{
+    background-color: black;
+    height: 50vh;
+}
+#profile_background2{
+    background-color: white;
+    min-height: 50vh;
+    position: absolute;
+    top: 50%;
+
+}
 
 .client_photos {
     padding: 20px 20px;
     border: solid;
+}
+
+.profile_noUser{
+    
+    width: 10%;
+    height: 10%;
+     
 }
