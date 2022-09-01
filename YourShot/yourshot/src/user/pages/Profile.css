@@ -41,7 +41,7 @@
     border-radius: 100%;
     position: absolute;
     top: -3.5%;
-    left: 60vw
+    left: 70vw
 }
 #profile_share{
     height: 200px;
@@ -50,7 +50,7 @@
     border-radius: 100%;
     position: absolute;
     top: -3.5%;
-    left: 70vw;
+    left: 60vw;
 }
 #profile_select{
     height: 200px;

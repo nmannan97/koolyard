@@ -2,10 +2,10 @@
 #footer{
     background-color: #333333;
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: space-between;
-    min-width: 100vw;
-    min-height: 10vh;    
+    width: 100vw;
+    height: 10vh;    
 }
 
 #footer_social_media{

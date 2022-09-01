@@ -7,13 +7,12 @@ function Navbar(){
         <>
         <nav className="navbar">
             <div className="navbar_container">
-                <img className="brand" src={Logo}/>
-                <p className='navbar_font'> Yourshot </p>
+                <Link className='navbar_profile_link'  to='/profile'>
+                    <img className="brand" src={Logo}/>
+                    <p className='navbar_font'> Yourshot </p>
+                </Link>
             </div>
             <ul>
-                <li>
-                    <Link to='/homescreen'>Home screen</Link>
-                </li>
                 <li>
                     <Link to='/messages'>Messages</Link>
                 </li>

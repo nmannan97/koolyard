@@ -9,7 +9,6 @@ function Homescreen(){
     return(
         <>
             <div id="homepage">
-                <Navbar />
                 <p id="welcome_homepage">Welcome to yourshot!</p>
                 <div id="homepage_about" className="homepage_background">
                     Yourshot is an app that is designed to make money for photographers by getting them to places using Uber API
@@ -38,7 +37,6 @@ function Homescreen(){
                         </div>
                     </div>
                 </div>
-                <Footer/>
             </div>
         </>
     );

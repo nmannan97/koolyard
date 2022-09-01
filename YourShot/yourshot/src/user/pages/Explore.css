@@ -1,0 +1,29 @@
+#explore{
+    height: 100vh;
+    background: url(../pictures/Assets/Elipses.png);
+    background-repeat: no-repeat;
+    background-size: 100vh 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+#explore_big_container{
+    padding-top: 50vh;
+    display: flex; 
+    justify-content: center;
+}
+
+#explore_guy1{
+    height: 400px;
+    width: 400px;
+}
+
+#explore_guy2{
+    height: 400px;
+    width: 400px;
+}
+
+
+.explore_row{
+    justify-content: center;
+    flex: 25%;
+}

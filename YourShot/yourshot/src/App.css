@@ -4,15 +4,16 @@
   vertical-align: top;
   text-align: center;
   font: italic 2em "Fira Sans", serif;
-
+  
 }
 
 .App{
-  background: url(../public/Elipses.png);
+  
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  height: auto;
 }
 
 .App-header {

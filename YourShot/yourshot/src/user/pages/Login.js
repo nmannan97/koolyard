@@ -5,6 +5,11 @@ import {useNavigate} from "react-router-dom";
 import {useState} from 'react';
 
 import Logo from "../pictures/Logo.PNG" // C:\Users\balto\Desktop\James\YourShot\yourshot\src\user\pictures
+import Homescreen from "./Homescreen";
+import Navbar2 from "../../Navbar2";
+import Explore from "./Explore";
+import Footer from "../../Footer";
+
 function Login() {
 
     const[username, setUsername] = useState("")
@@ -19,7 +24,7 @@ function Login() {
 
     let navigate = useNavigate();
     const routeChange = () =>{
-        navigate('/homescreen')
+        navigate('/profile')
     }
     const logValue = () => {
         if(username=="username" && password == "password"){
@@ -30,8 +35,11 @@ function Login() {
     }
 
     return (
+        <>
+
+
         <div id="login">
-            
+            <Navbar2/>
             <div className="login_container">
 
                 <div className="login_item">
@@ -45,13 +53,13 @@ function Login() {
             
             <br/>
             
-            <div className="login_container">
-                <div className="login_item">
-                    <p className="login_font">Create account</p>
-                </div>
-            </div>
             <img src={Logo} id="login_centerpiece"/>
         </div>
+        <Homescreen/>
+        <Explore/>
+
+        <Footer />
+        </>
     );
 }
 

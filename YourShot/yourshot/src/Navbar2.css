@@ -1,25 +1,27 @@
 
-a {
+p {
     text-decoration: none;
     font-size: 2.33em;
   }
 
-  .navbar {
+  .navbar2 {
     background-color: #333333;
     display: flex;
     /* let's align the items so everything is nice and centered */
-    position: relative;
+    position: fixed;
     justify-content: space-between;
+    width: 100vw;
     height: 10vh;
+    overflow: hidden;
   }
   
-  /* We want all links in the navbar to be #e7e7e7 */
-  .navbar a {
+  /* We want all links in the navbar2 to be #e7e7e7 */
+  .navbar2 p {
     color: #e7e7e7;
     
   }
   
-  .navbar ul {
+  .navbar2 ul {
    /* Let's reset the margin and padding of the list so it's is flush. */
     margin: 10px ;
     padding: 10px;
@@ -30,36 +32,33 @@ a {
     justify-content: right;
   }
   
-  .navbar .brand {
+  .navbar2 .navbar2_brand {
     /*Let's make the anchor display block.
        This will ensure when we get the full width of the container.
     */
+    display: flex;
     border-radius: 100%;
     height: 100px;
+    padding: 10px;
     margin: auto;
    /* Remove padding from top/bottom and add 24px padding right/left */
    justify-items: left;
    float: left;
-   padding-left: 1vw;;
+   width: 30%;
   }
   
-  .navbar .navbar_font{
-    font: italic 1.5em "Fira Sans", serif;
+  .navbar2 .navbar2_font{
+    font: italic 3em "Fira Sans", serif;
     color: white;
   }
 
-  .navbar .navbar_container{
-    display: flex;
-    
-  }
-  .navbar .navbar_profile_link{
-    display: flex;
-    text-align: left;
-    margin-top: 0vh;
+  .navbar2 .navbar2_container{
+    display: table;
+    column-count: 2;
     
   }
 
-  .navbar ul li a {
+  .navbar2 ul li p {
     color: #e7e7e7;
     padding: 24px;
     margin: auto;
@@ -71,8 +70,8 @@ a {
   }
   
   /* When a user hovers, focuses or if the link is active change the background */
-  .navbar ul a:hover,
-  .navbar ul a:focus,
-  .navbar ul .active {
+  .navbar2 ul p:hover,
+  .navbar2 ul p:focus,
+  .navbar2 ul .active {
     background-color: #272727;
   }

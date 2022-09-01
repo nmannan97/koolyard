@@ -1,22 +1,26 @@
 #login{
     background: url(../../../public/Space.gif);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100vw 100vh;
+    background-position: top;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
+    margin-bottom: 0;
+    background-color: transparent;
 }
 
 #Password_users,
 #Username_users{
     width: 15vw;
-    height: 4vh;
+    height: 40px;
 }
 #login_centerpiece{
     display: flex;
     border-radius: 100%;
     justify-content: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20vh;
 }
 
 #login_signin{
@@ -30,7 +34,8 @@
     display: flex;
     margin: auto ; 
     justify-content: center;
-    
+    top: 10vh;
+    padding-top: 10vh;
 }
 
 .login_item {
