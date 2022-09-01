@@ -22,30 +22,31 @@ function Profile(){
             image[index] = <img className="client_photos" src={noUser}/>
         }
         return image
-    }
-
-    function editPhoto(e) {
-        userProfile = URL.createObjectURL(e.target.files[0])
-        setUserProfile(URL.createObjectURL(e.target.files[0]));
-        return 
+        
     }
 
     return(
         <>
+        
         <div id="profile">
             <Navbar />
                 <div id="profile_background1">
                 
                 
                 <div id="profile_background2">
-                    <img id="profile_user" src={userProfile}/>
+                    <div id="profile_user_background">   
+                        <img id="profile_user" src={userProfile}/>
+                    </div>
                     <Link to='/messages'><img id="profile_message" src={message}/></Link>
                     
-                    <img id="profile_share" src={share}/>
-                    <input type="file" onChange={editPhoto()}>
+                    <label for="profile_input" class="label_display form-label">
+                        
                         <img id="profile_select" src={selectMain}/>
                         <img id="profile_select2" src={select1}/>
-                    </input>
+                    </label>
+                    <input onChange={(e) => setUserProfile(URL.createObjectURL(e.target.files[0]))} id="profile_input" type="file"/>
+
+                    <img id="profile_share" src={share}/>
                     <div id="client_column">
                         <div id="client_row">
                             {addPhotos()}

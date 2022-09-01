@@ -18,16 +18,10 @@ function Navbar(){
                     <Link to='/messages'>Messages</Link>
                 </li>
                 <li>
-                    <Link to='/explore'>Explore</Link>
-                </li>
-                <li>
-                    <Link to='/notifications'>Notifications</Link>
-                </li>
-                <li>
                     <Link to='/profile'>Profile</Link>
                 </li>
                 <li>
-                    <Link to='/photographer'>Photographers</Link>
+                    <Link to='/discover'>Explore</Link>
                 </li>
                 <li>
                     <Link to='/'>Logout</Link>

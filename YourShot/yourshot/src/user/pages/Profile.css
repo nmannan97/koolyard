@@ -17,8 +17,10 @@
     border-radius: 100%;
     position: absolute;
     top: -3.5%;
-    left: 20%;
+    left: 5vw;
     transition: 0.5s;
+    background: url(../pictures/Assets/UserProfile.png);
+    background-size: contain;
 }
 #profile_user:hover{
     height: 400px;
@@ -27,8 +29,10 @@
     border-radius: 100%;
     position: absolute;
     top: -8%;
-    left: 15%;
+    left: 5vw;
     transition: 0.5s;
+    background: url(../pictures/Assets/UserProfile.png);
+    background-size: contain;
 }
 #profile_message{
     height: 200px;
@@ -37,7 +41,7 @@
     border-radius: 100%;
     position: absolute;
     top: -3.5%;
-    left: 80%;
+    left: 60vw
 }
 #profile_share{
     height: 200px;
@@ -46,7 +50,7 @@
     border-radius: 100%;
     position: absolute;
     top: -3.5%;
-    left: 70%;
+    left: 70vw;
 }
 #profile_select{
     height: 200px;
@@ -55,16 +59,15 @@
     border-radius: 100%;
     position: absolute;
     top: -3.5%;
-    left: 90%;
+    left: 80vw;
 }
 #profile_select2{
     height: 100px;
     width: 100px;
-    background-color: white;
     border-radius: 0%;
     position: absolute;
     top: -2%;
-    left: 92%;
+    left: 82vw;
     background-color: transparent;
 }
 #profile_background1{
@@ -76,6 +79,13 @@
     min-height: 50vh;
     position: absolute;
     top: 50%;
+
+}
+#profile_input{
+    display: none;
+}
+
+#profile_user_background{
 
 }
 
