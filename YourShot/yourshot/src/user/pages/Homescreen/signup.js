@@ -1,11 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import './signup.css'
 export default function Signup() {
-
-    const goToSignUp = () =>{
-
-    }
 
     return(
         <>
@@ -17,9 +14,11 @@ export default function Signup() {
                 <div id='signup_text2'>
                     <p className="signup_font">Book your next gig with us. This is where you want to be.</p>
                 </div>
-                <button id='signup_button' onChange={() => goToSignUp()}>
-                    JOIN NOW 
-                </button>
+                <Link to='/signuppage'>
+                    <button id='signup_button'>
+                        JOIN NOW 
+                    </button>
+                </Link>
             </div>
         </div>
         </>

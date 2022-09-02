@@ -1,9 +1,8 @@
 import './Homescreen.css';
-import Navbar from '../../Navbar';
-import NoUser from '../pictures/noUser.png'
 //Images
-import Naeem from "../pictures/teammates/Naeem.jpeg"
-import Footer from '../../Footer';
+import Naeem from "../../pictures/teammates/Naeem.jpeg"
+import NoUser from '../../pictures/noUser.png'
+
 
 function Homescreen(){
     return(

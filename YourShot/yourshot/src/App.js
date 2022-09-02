@@ -1,14 +1,14 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
 
-import Login from './user/pages/Login'
-import Homescreen from "./user/pages/Homescreen";
+import Login from './user/pages/Homescreen/Login'
+import Homescreen from "./user/pages/Homescreen/Homescreen";
 import Messages from './user/pages/Messages';
-import Explore from './user/pages/Explore';
+import Explore from './user/pages/Homescreen/Explore';
 import Notifications from './user/pages/Notifications';
 import Profile from './user/pages/Profile';
-import Photographer from './user/pages/Photographer';
 import Homepage from './user/pages/homepage';
+import Signuppage from './user/pages/signuppage';
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
           <Route exact path='/explore' element={<Explore/>}/>
           <Route exact path='/notifications' element={<Notifications/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
-          <Route exact path='/photographer' element={<Photographer/>}/>
+          <Route exact path='/signuppage' element={<Signuppage/>}/>
         </Routes>
       </div>
   </div>

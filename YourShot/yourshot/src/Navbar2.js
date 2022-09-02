@@ -18,6 +18,9 @@ function Navbar2(){
                 <p className='navbar2_font'> Yourshot </p>
             </div>
             <ul>
+                <li onClick={() => scrollTo('login')}>
+                    <p>Login</p>
+                </li>
                 <li onClick={() => scrollTo('homepage')}>
                     <p>Homepage</p>
                 </li>

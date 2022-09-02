@@ -1,9 +1,9 @@
 import React from "react";
 
-import Login from "./Login";
-import Homescreen from "./Homescreen";
-import Explore from "./Explore";
-import Signup from "./signup";
+import Login from "./Homescreen/Login";
+import Homescreen from "./Homescreen/Homescreen";
+import Explore from "./Homescreen/Explore";
+import Signup from "./Homescreen/signup";
 import Navbar2 from "../../Navbar2";
 import Footer from "../../Footer";
 

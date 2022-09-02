@@ -1,7 +1,7 @@
 /*IDs */
 #homepage{
     max-height: fit-content;
-    background: url('../pictures/Assets/Elipses.png');
+    background: url('../../pictures/Assets/Elipses.png');
     background-repeat: no-repeat;
     background-size: contain;
 }

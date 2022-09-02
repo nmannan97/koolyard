@@ -1,9 +1,9 @@
 import './Explore.css';
 
-import Guy1 from '../pictures/Assets/Guy1.png'
-import Guy2 from '../pictures/Assets/Guy2.png'
-import UserSelect1 from '../pictures/Assets/UserSelect1.png'
-import UserSelect0 from '../pictures/Assets/UserSelectMain.png'
+import Guy1 from '../../pictures/Assets/Guy1.png'
+import Guy2 from '../../pictures/Assets/Guy2.png'
+import UserSelect1 from '../../pictures/Assets/UserSelect1.png'
+import UserSelect0 from '../../pictures/Assets/UserSelectMain.png'
 
 function Explore(){
     return(
