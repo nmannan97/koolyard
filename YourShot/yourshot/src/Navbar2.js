@@ -6,7 +6,7 @@ function Navbar2(){
 
     const scrollTo = (Position) =>{
         let element = document.getElementById(Position);
-        window.scrollTo(0, element.getBoundingClientRect().top)
+        window.scrollBy(0, element.getBoundingClientRect().top - 0.1*window.innerHeight)
     }
 
     return(
@@ -21,10 +21,10 @@ function Navbar2(){
                 <li onClick={() => scrollTo('homepage')}>
                     <p>Homepage</p>
                 </li>
-                <li>
+                <li onClick={() => scrollTo('explore')}>
                     <p>Explore</p>
                 </li>
-                <li>
+                <li onClick={() => scrollTo('signup')}>
                     <p>signup</p>
                 </li>
             </ul>

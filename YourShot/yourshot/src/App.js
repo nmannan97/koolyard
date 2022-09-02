@@ -8,6 +8,7 @@ import Explore from './user/pages/Explore';
 import Notifications from './user/pages/Notifications';
 import Profile from './user/pages/Profile';
 import Photographer from './user/pages/Photographer';
+import Homepage from './user/pages/homepage';
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
       
       <div className="menu">   
         <Routes>
-          <Route exact path='/' element={<Login/>} />
+          <Route exact path='/' element={<Homepage/>} />
           <Route exact path='/homescreen' element={<Homescreen/>}/>
           <Route exact path='/messages' element={<Messages/>}/>
           <Route exact path='/explore' element={<Explore/>}/>

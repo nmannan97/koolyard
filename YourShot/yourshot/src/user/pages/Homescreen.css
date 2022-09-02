@@ -1,10 +1,13 @@
 /*IDs */
 #homepage{
     max-height: fit-content;
+    background: url('../pictures/Assets/Elipses.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #welcome_homepage{
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 11vh;
     margin-bottom: 20px;
     color: white;
     text-align: center;

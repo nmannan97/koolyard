@@ -39,7 +39,7 @@ function Login() {
 
 
         <div id="login">
-            <Navbar2/>
+
             <div className="login_container">
 
                 <div className="login_item">
@@ -55,10 +55,6 @@ function Login() {
             
             <img src={Logo} id="login_centerpiece"/>
         </div>
-        <Homescreen/>
-        <Explore/>
-
-        <Footer />
         </>
     );
 }

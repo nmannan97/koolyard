@@ -2,28 +2,51 @@
     height: 100vh;
     background: url(../pictures/Assets/Elipses.png);
     background-repeat: no-repeat;
-    background-size: 100vh 100vw;
+    background-size: contain;
     margin: 0;
     overflow: hidden;
 }
 #explore_big_container{
-    padding-top: 50vh;
+    
     display: flex; 
+    width: 100%;
     justify-content: center;
 }
 
 #explore_guy1{
     height: 400px;
     width: 400px;
+    float: left;
+    padding-left: 10vw;
 }
 
 #explore_guy2{
     height: 400px;
     width: 400px;
+    float: right;
+    padding-right: 10vw;
 }
+#explore_user1{
+    display: block;
+    position: relative;
+    margin: auto;
+    top: -25%;
+} 
+#explore_user2{
+    display: block;
+    position: relative;
+    margin: auto;
+    top: -25%;
+    height: 650px;
+} 
+#explore_book_appointment{
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
 
-
+}
 .explore_row{
+    flex: 50%;
     justify-content: center;
-    flex: 25%;
 }

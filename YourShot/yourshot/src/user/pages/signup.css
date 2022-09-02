@@ -1,0 +1,12 @@
+#signup{
+    background: url(../pictures/Assets/Elipses.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+#signup_button{
+    display: flex;
+    margin: auto;  
+    height: 100vh;  
+}
