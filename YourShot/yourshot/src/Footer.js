@@ -1,8 +1,6 @@
 import React from "react"
 import "./Footer.css"
 
-import ig from "./user/pictures/Logos/instagram.svg"
-
 export default function Footer(){
 
     
@@ -13,7 +11,7 @@ export default function Footer(){
                 <div id="footer_social_media">
                     <ul>
                         <li>
-                            <img src={ig}/> 
+                            <img/> 
                         </li>
                     </ul>
                 </div>

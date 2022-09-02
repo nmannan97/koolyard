@@ -20,9 +20,6 @@ function Navbar(){
                     <Link to='/profile'>Profile</Link>
                 </li>
                 <li>
-                    <Link to='/discover'>Explore</Link>
-                </li>
-                <li>
                     <Link to='/'>Logout</Link>
                 </li>
             </ul>
