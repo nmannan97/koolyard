@@ -5,7 +5,7 @@ import Homescreen from "./Homescreen";
 import Explore from "./Explore";
 import Signup from "./signup";
 import Navbar2 from "../../Navbar2";
-
+import Footer from "../../Footer";
 
 export default function Homepage() {
     return(
@@ -15,6 +15,7 @@ export default function Homepage() {
             <Homescreen />
             <Explore />
             <Signup />
+            <Footer />
         </>
     )
 }
