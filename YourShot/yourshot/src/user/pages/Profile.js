@@ -3,9 +3,9 @@ import React, { useState } from "react";
 
 import './Profile.css';
 import Navbar from '../../Navbar';
+import Footer from '../../Footer';
 
 import noUser from "../pictures/noUser.png"
-import userProfile from '../pictures/Assets/UserProfile.png'
 import message from "../pictures/Assets/Message.png"
 import share from "../pictures/Assets/Share.png"
 import select1 from "../pictures/Assets/Edit2.png"
@@ -58,6 +58,7 @@ function Profile(){
             </div>
             
         </div>
+        <Footer />
         </>
     );
 }

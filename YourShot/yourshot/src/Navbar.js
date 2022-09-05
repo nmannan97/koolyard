@@ -1,15 +1,18 @@
 import './Navbar.css'
 import {Link} from 'react-router-dom'
+import { useState } from 'react'
 
 import Logo from "./user/pictures/YourShotLogo2.PNG"
 function Navbar(){
-    return(
-        <>
+
+    const[windowSize, setWindowSize] = useState()
+    
+    const longNavbar = () => {
         <nav className="navbar">
             <div className="navbar_container">
                 <Link className='navbar_profile_link'  to='/profile'>
                     <img className="brand" src={Logo}/>
-                    <p className='navbar_font'> Yourshot </p>
+                    <p id="navbar_yourshot" className='navbar_font'> Yourshot </p>
                 </Link>
             </div>
             <ul>
@@ -24,6 +27,21 @@ function Navbar(){
                 </li>
             </ul>
         </nav>
+    }
+
+    setInterval(() => {
+        if(window.innerWidth < 500){
+
+        }
+        else{
+            setWindowSize(longNavbar())
+        }
+    }, 100);
+    window.addEventListener('timeupdate', setInterval)
+    return(
+        <> 
+            {windowSize}
+
         </>
     );
 }

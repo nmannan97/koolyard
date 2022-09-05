@@ -4,17 +4,20 @@
     background: url('../../pictures/Assets/Elipses.png');
     background-repeat: no-repeat;
     background-size: contain;
+    padding-top: 10vh;
+    margin-top: 10vh;
 }
 #welcome_homepage{
     padding: 30px;
-    margin-top: 11vh;
+    margin-top: 13vh;
     margin-bottom: 20px;
     color: white;
     text-align: center;
-    font: italic 6em "Fira Sans", serif;
+    font: italic calc(3vw + 1em) "Fira Sans", serif;
 }
 #homepage_about{
-    font: italic 6em "Fira Sans", serif;
+    padding: 30px;
+    font: italic calc(3vw + 1em)  "Fira Sans", serif;
 }
 #homepage_meet_the_team{
     color: white;
@@ -52,7 +55,9 @@
     padding-bottom: 40px;
     padding-top: 20px;
     font-size: xx-large;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
     min-height: 40vh;
     word-wrap: break-word;
 }
@@ -60,14 +65,14 @@
 .homepage_meet_the_team{
     text-align: center;
     justify-content: center;
-    font: italic 5em "Fira Sans", serif;
+    font: italic calc(3vw + 1em) "Fira Sans", serif;
     margin: 30px;
     padding: 10px;
     display: block;
     
 }
 .homepage_generic_font{
-    font: italic 3em "Fira Sans", serif;
+    font: italic calc(1vw + 1em) "Fira Sans", serif;
     color: black;
 }
 /*Tags */

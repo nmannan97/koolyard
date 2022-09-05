@@ -34,17 +34,18 @@ a {
     /*Let's make the anchor display block.
        This will ensure when we get the full width of the container.
     */
+    display: block;
     border-radius: 100%;
     height: 100px;
     margin: auto;
    /* Remove padding from top/bottom and add 24px padding right/left */
    justify-items: left;
    float: left;
-   padding-left: 1vw;;
+   padding-left: 1vw;
   }
   
   .navbar .navbar_font{
-    font: italic 1.5em "Fira Sans", serif;
+    font: italic calc(1vw + 1em) "Fira Sans", serif;
     color: white;
   }
 
@@ -53,10 +54,13 @@ a {
     
   }
   .navbar .navbar_profile_link{
-    display: flex;
     text-align: left;
     margin-top: 0vh;
-    
+  }
+
+  .navbar #navbar_yourshot{
+    position: absolute;
+    left: 50%;
   }
 
   .navbar ul li a {

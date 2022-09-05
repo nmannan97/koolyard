@@ -1,18 +1,60 @@
 /* IDs*/
 #footer{
     background-color: #333333;
-    display: flex;
-    justify-content: space-between;
     width: 100vw;
     height: 200px;    
+    overflow: hidden;
+
 }
 
 #footer_social_media{
-    justify-content: right;
+    display: flex;
+    float: right;
+    text-decoration: none;
+}
+#footer_container{
+    height: 150px;
+    width: 100vw;
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer_contact{
+    padding-left: 100px;
 }
 
+#footer_instagram{
+    height: 75px;
+    padding-right: 200px;
+
+}
+#footer_twitter{
+    height: 75px;
+    padding-right: 200px;
+    
+}
+#footer_facebook{
+    height: 75px;
+    padding-right: 200px;
+    
+}
+#footer_images{
+    list-style-type: none;
+    justify-content: right;
+    display: flex;
+}
+
+#footer_images ul li a {
+    display: block;
+    margin: auto;
+}
 /*ClassNames */
 .footer_font{
     font: italic 2em "Fira Sans", serif;
     color: white;
+}
+
+.footer_link{
+    display: block;
 }

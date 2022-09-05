@@ -2,13 +2,14 @@
     display: absolute;
     padding-top: 45vh;
     padding-bottom:  20px;
+    justify-content: center;
 }
 
 #client_row{
     width: 50%;
-    margin: 10px auto;
     padding: 20px 20px;
     border: dotted;
+    margin: auto;
 }
 #profile_user{
     height: 200px;
@@ -83,10 +84,6 @@
 }
 #profile_input{
     display: none;
-}
-
-#profile_user_background{
-
 }
 
 .client_photos {

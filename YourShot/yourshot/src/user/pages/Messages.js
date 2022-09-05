@@ -1,6 +1,8 @@
 import './Messages.css';
 import Navbar from '../../Navbar';
 
+import Footer from '../../Footer';
+
 function Messages(){
     return(
         <>
@@ -8,6 +10,7 @@ function Messages(){
             <Navbar />
             Hello there from the messages
         </div>
+        <Footer />
         </>
     );
 }
