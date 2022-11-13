@@ -1,10 +1,9 @@
-import './App.css';
 import {Routes, Route} from "react-router-dom";
 
 import Login from './user/pages/Homescreen/Login'
 import Homescreen from "./user/pages/Homescreen/Homescreen";
 import Messages from './user/pages/Messages';
-import Explore from './user/pages/Homescreen/Explore';
+import Explore from './user/pages/Homescreen/About';
 import Notifications from './user/pages/Notifications';
 import Profile from './user/pages/Profile';
 import Homepage from './user/pages/homepage';

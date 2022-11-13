@@ -7,7 +7,7 @@ import {useState} from 'react';
 import Logo from "../../pictures/Logo.PNG" // C:\Users\balto\Desktop\James\YourShot\yourshot\src\user\pictures
 import Homescreen from "./Homescreen";
 import Navbar2 from "../../../Navbar2";
-import Explore from "./Explore";
+import Explore from "./About";
 import Footer from "../../../Footer";
 
 function Login() {
@@ -53,7 +53,6 @@ function Login() {
             
             <br/>
             
-            <img src={Logo} id="login_centerpiece"/>
         </div>
         </>
     );

@@ -1,22 +1,16 @@
 /*IDs */
-#homepage{
-    max-height: fit-content;
-    background: url('../../pictures/Assets/Elipses.png');
-    background-repeat: no-repeat;
-    background-size: contain;
+#homescreen{
+    height: auto;
+    background-color: rgb(0, 0, 255);
     padding-top: 10vh;
     margin-top: 10vh;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
 }
-#welcome_homepage{
-    padding: 30px;
-    margin-top: 13vh;
-    margin-bottom: 20px;
-    color: white;
-    text-align: center;
-    font: italic calc(3vw + 1em) "Fira Sans", serif;
-}
+
 #homepage_about{
-    padding: 30px;
     font: italic calc(3vw + 1em)  "Fira Sans", serif;
 }
 #homepage_meet_the_team{
@@ -28,14 +22,12 @@
     color: white;
     width: 100%;
     text-align: center;
-    padding: 50px;
+    justify-content: center;
 }
 
 .homepage_container{
     justify-content: center;
-    text-align: center;
-    padding: 10px;
-    
+    text-align: center;    
 }
 
 .homepage_item{
@@ -52,13 +44,12 @@
     text-align: center;
     background-color: white;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     padding-top: 20px;
     font-size: xx-large;
     margin-top: 30px;
-    margin-bottom: 30px;
 
-    min-height: 40vh;
+    height: auto;
     word-wrap: break-word;
 }
 
@@ -67,19 +58,36 @@
     justify-content: center;
     font: italic calc(3vw + 1em) "Fira Sans", serif;
     margin: 30px;
-    padding: 10px;
+    padding-bottom: 10px;
     display: block;
+    height: auto;
+
     
 }
 .homepage_generic_font{
     font: italic calc(1vw + 1em) "Fira Sans", serif;
     color: black;
+    text-align: center;
 }
-/*Tags */
+
 .img_polaroid {
     width: 15%;
     border-radius: 100%;
     object-fit: scale-down;
     vertical-align: bottom;
     justify-content: center;
+    padding-bottom: 10px;
+}
+
+.homepage_exec_summary{
+    font: italic calc(2vw + 1em) "Fira Sans", serif;
+    color: black;
+    text-align: center;
+}
+
+.homepage_header{
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font: italic calc(3vw + 1em) "Fira Sans", serif;
 }

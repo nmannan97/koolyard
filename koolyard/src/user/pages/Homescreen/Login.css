@@ -1,13 +1,13 @@
 #login{
-    background: url(../../../../public/Space.gif);
+    background: url(../../../../public/blackboard.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-    background-position: top;
+    background-position: bottom;
     width: 100vw;
     height: 100vh;
     margin-bottom: 0;
     background-color: transparent;
-    padding-top: 3vh; 
+    padding-top: 10vh; 
 }
 
 #Password_users,

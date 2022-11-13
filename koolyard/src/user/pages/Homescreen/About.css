@@ -1,0 +1,18 @@
+#About{
+    height: 100vh;
+    background-color: rgba(40, 45, 75, 0.897);
+    margin: 0;
+    overflow: hidden;
+    height: auto;
+
+}
+#About_container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.About_main_font{
+    font: italic calc(3vw + 1em) "Fira Sans", serif;
+    text-align: center;
+    color: white;
+
+}

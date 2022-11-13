@@ -1,46 +1,8 @@
 #signup{
-    background: url(../../pictures/Assets/GuyPhoto.png);
+    background-color: blue;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     margin: 0;
 }
 
-#signup_button{
-    display: flex;
-    margin-left: 10vw;   
-    margin-right: auto;
-    background-color: blue;
-    border-radius: 5px;
-    font-style: italic;
-    font-size: calc(0.5vw + 1.0em);
-    color: white;
-    padding: 25px;
-}
-
-#signup_button_container{
-    padding-top: 5vh;
-
-}
-
-#signup_text1{
-    font-style: italic;
-    width: (10vw + 800px);
-    padding-left: 10vw;
-    color: white;
-    padding-top: 25vh;
-    font-size: calc(0.5vw + 1.0em);
-}
-
-#signup_text2{
-    font-style: italic;
-    width: (10vw + 800px);
-    padding-left: 10vw;
-    color: white;
-
-    font-size: calc(0.5vw + 1.0em);
-}
-
-.signup_font{
-    font: italic "Fira Sans", serif;
-}

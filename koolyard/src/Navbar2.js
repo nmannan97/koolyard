@@ -21,7 +21,6 @@ function Navbar2(){
         return(
             <nav className="navbar2">
                 <div className="navbar2_container">
-                    <img className="navbar2_brand" src={Logo}/>
                 </div>
                 <ul onClick={toggleHamburger}>
                     <li onClick={() => scrollTo('login')}>
@@ -30,12 +29,10 @@ function Navbar2(){
                     <li onClick={() => scrollTo('homepage')}>
                         <p>Homepage</p>
                     </li>
-                    <li onClick={() => scrollTo('explore')}>
-                        <p>Explore</p>
+                    <li onClick={() => scrollTo('about')}>
+                        <p>About</p>
                     </li>
-                    <li onClick={() => scrollTo('signup')}>
-                        <p>signup</p>
-                    </li>
+
                 </ul>
             </nav>
         )
@@ -57,11 +54,8 @@ function Navbar2(){
                         <li onClick={() => scrollTo('homepage')}>
                            <p>Homepage</p>
                         </li>
-                        <li onClick={() => scrollTo('explore')}>
-                           <p>Explore</p>
-                        </li>
-                        <li onClick={() => scrollTo('signup')}>
-                            <p>signup</p>
+                        <li onClick={() => scrollTo('About')}>
+                           <p>About</p>
                         </li>
                     </ul>
                 </div>

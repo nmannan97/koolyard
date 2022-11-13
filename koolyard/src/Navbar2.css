@@ -10,11 +10,11 @@ p {
     /* let's align the items so everything is nice and centered */
     position: fixed;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     height: 150px;
     overflow: hidden;
     z-index: 1;
-    
+    margin-bottom: 10px;
   }
   
   
