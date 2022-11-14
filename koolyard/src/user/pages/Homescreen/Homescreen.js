@@ -9,8 +9,12 @@ function Homescreen(){
         <>
             <div id="homescreen">
                 <p className="homepage_header">Welcome to SkoolYard</p>
+
+            <div className="color_padding_outer">
                 <div id="homepage_ExecSummary1" className="homepage_background">
-                    <p className='homepage_exec_summary'>
+
+                <div style={{width:'80%'}} className="color_padding_inner">
+                    <p className='homepage_header'>
                     About SchoolYard 
                     </p>
                     <br/>
@@ -18,6 +22,7 @@ function Homescreen(){
                     All online educational platforms lack the component that is so essential and ubiquitous 
                     at every physical in-person school: the schoolyard.
                     </p>
+                
                     <br/>
                     <p className='homepage_exec_summary'>
                     SchoolYard (SY) thrives to bring the social, educational, and networking interactions 
@@ -31,6 +36,8 @@ function Homescreen(){
                     students as well as among students themselves. SchoolYard creates a safe 
                     environment optimized for students to organize or join school activities.
                     </p>
+                </div>
+
                     <p className="homepage_header">
                         Our Product
                     </p>
@@ -67,13 +74,13 @@ function Homescreen(){
                         - Ultimately, SY thrives to become the most effective platform for students to educate each other.
 
                     </p>
-
+                    </div>
                     <p className="homepage_header">
                         All Activities Outside of the Classroom Begin at SchoolYard!!! 
-                    </p>
-                    
-                </div>
-                <div id="homepage_meet_the_team">
+                    </p>    
+            </div>
+
+                <div id="homepage_meet_the_team" className='color_padding_outer'>
                 <p className='homepage_meet_the_team'>Meet the team</p>
                     <div className="homepage_container">
                     
