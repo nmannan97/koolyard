@@ -12,7 +12,6 @@ import Signuppage from './user/pages/signuppage';
 export default function App() {
   return (
   <div className="App"> 
-      
       <div className="menu">   
         <Routes>
           <Route exact path='/' element={<Homepage/>} />
