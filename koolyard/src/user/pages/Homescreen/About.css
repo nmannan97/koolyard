@@ -1,18 +1,32 @@
-#About{
-    height: 100vh;
-    background-color: rgba(40, 45, 75, 0.897);
-    margin: 0;
+#about{
+    background-color: #39485d;
     overflow: hidden;
     height: auto;
-
-}
-#About_container{
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-.About_main_font{
-    font: italic calc(3vw + 1em) "Fira Sans", serif;
     text-align: center;
     color: white;
+    font: 20px "FiraSans";
+    line-height: 1.75;
+}
 
+#About_container{
+    margin: 0vw 10vw;
+}
+
+.about_h2{
+    color: #a3bfe8;
+    font: 2em "Lato", serif;
+    margin: 8% 0%;
+}
+
+.about_gradient{
+    background:
+        linear-gradient(
+            #39485d 90%, #ffffff00 10%),
+          linear-gradient(#ffffff00, #ffffff00),
+          linear-gradient(-290deg, #84afee, #ffffff00 80%);
+}
+
+@font-face{
+    font-family: FiraSans;
+    src: url('../../fonts/Fira_Sans/FiraSans-Light.ttf') format('TrueType')
 }
