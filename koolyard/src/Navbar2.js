@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import Logo from "./user/pictures/YourShotLogo2.PNG"
 import { useState } from 'react'
 import React from 'react'
+
 function Navbar2(){
 
     const [hamburger, setHamburger] = useState()
@@ -26,8 +27,8 @@ function Navbar2(){
                     <li onClick={() => scrollTo('login')}>
                         <p>Login</p>
                     </li>
-                    <li onClick={() => scrollTo('homepage')}>
-                        <p>Homepage</p>
+                    <li onClick={() => scrollTo('homescreen')}>
+                        <p>Homescreen</p>
                     </li>
                     <li onClick={() => scrollTo('about')}>
                         <p>About</p>

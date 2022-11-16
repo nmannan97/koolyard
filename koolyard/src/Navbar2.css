@@ -1,9 +1,3 @@
-
-p {
-    text-decoration: none;
-    font-size: 2.33em;
-  }
-
   .navbar2 {
     background-color: #333333;
     display: flex;
@@ -11,26 +5,22 @@ p {
     position: fixed;
     justify-content: space-between;
     width: 100%;
-    height: 150px;
+    height: 12%;
     overflow: hidden;
     z-index: 1;
     margin-bottom: 10px;
   }
   
-  
   /* We want all links in the navbar2 to be #e7e7e7 */
   .navbar2 p {
     color: #e7e7e7;
-    
+    vertical-align: center;
   }
-  .navbar2 div p {
-    color: #e7e7e7;
-    
-  }
+
   .navbar2 ul {
    /* Let's reset the margin and padding of the list so it's is flush. */
-    margin: 10px ;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
     /* Let's remove the bullet points */
     list-style-type: none;
     /* display the list flex and align the items centered */

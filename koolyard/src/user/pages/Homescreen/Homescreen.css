@@ -1,38 +1,26 @@
+
+
 /*IDs */
 #homescreen{
-    height: auto;
-    background-color: rgb(0, 0, 255);
-    padding-top: 10vh;
-    margin-top: 10vh;
-    width: 100%;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    
-}
-
-#homepage_about{
-    font: italic calc(3vw + 1em)  "Fira Sans", serif;
-}
-#homepage_meet_the_team{
-    color: white;
-
-}
-/*Classnames */
-.homepage_background{
-    color: white;
-    width: 100%;
+    background-color: #f0f0f2;
+    padding: 5vh 10vh 5vh 10vh;
+    font: 20px "FiraSans";
+    line-height: 1.75;
     text-align: center;
-    justify-content: center;
 }
 
-.homepage_container{
-    justify-content: center;
-    text-align: center;    
+/*Classnames */
+.color_padding_outer{
+    background-color: #333333;
+    margin: 10% 0% 15% 0%;
+    padding: 5% 0%;
 }
 
-.homepage_item{
-    width: 50%;
+.color_padding_inner{
+    background-color: #d5d5d8;
+    justify-content: center;
     margin: auto;
+    padding: 5%;
 }
 
 .homepage_polaroid{
@@ -40,34 +28,15 @@
     position: relative;
     top: 8px;
     margin: auto;
-    width: auto;
+    width: 75%;
     text-align: center;
     background-color: white;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    font-size: xx-large;
+    padding-bottom: 3%;
+    padding-top: 5%;
     margin-top: 30px;
-
     height: auto;
     word-wrap: break-word;
-}
-
-.homepage_meet_the_team{
-    text-align: center;
-    justify-content: center;
-    font: italic calc(3vw + 1em) "Fira Sans", serif;
-    margin: 30px;
-    padding-bottom: 10px;
-    display: block;
-    height: auto;
-
-    
-}
-.homepage_generic_font{
-    font: italic calc(1vw + 1em) "Fira Sans", serif;
-    color: black;
-    text-align: center;
 }
 
 .img_polaroid {
@@ -79,15 +48,65 @@
     padding-bottom: 10px;
 }
 
-.homepage_exec_summary{
-    font: italic calc(2vw + 1em) "Fira Sans", serif;
-    color: black;
+.homescreen_h1{
+    padding: 5% 0%;
+    margin: 20px auto;
+    color: #0D0D0D;
     text-align: center;
+    font: 3em "Lato", serif;
 }
 
-.homepage_header{
-    margin-bottom: 20px;
-    color: white;
+.homescreen_h2{
+    color: #506b92;
+    font: 2em "Lato", serif;
     text-align: center;
-    font: italic calc(3vw + 1em) "Fira Sans", serif;
+    margin: 8% 0%;
+}
+
+.flex_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex{
+    flex-direction: row;
+    flex: 33%;
+    margin: 3% auto;
+}
+
+.flex2{
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.homescreen_gradient{
+    background:
+        linear-gradient(
+            #f0f0f2 90%,rgba(94, 30, 30, 0) 10%),
+          linear-gradient(#ffffff00, #ffffff00),
+          linear-gradient(-290deg, #506b92, rgba(0, 0, 255, 0) 80%);
+}
+
+
+@font-face{
+    font-family: FiraSans;
+    src: url('../../fonts/Fira_Sans/FiraSans-Light.ttf') format('TrueType')
+}
+    
+@media screen and (min-width: 1000px) {
+    p {
+        font-size: 1.1em;
+        line-height: 2;
+    }
+    .flex_container {
+        flex-direction: row;
+    }
+    .flex{
+        padding: 15px;
+    }
+    .flex2{
+        width: 75%;
+    }
 }
