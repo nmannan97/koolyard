@@ -1,7 +1,6 @@
 import './Navbar2.css'
 import {Link} from 'react-router-dom'
 
-import Logo from "./user/pictures/YourShotLogo2.PNG"
 import { useState } from 'react'
 import React from 'react'
 
@@ -18,36 +17,15 @@ function Navbar2(){
         setHamburger(!hamburger)
     }
 
-    const longbar = () => {
-        return(
-            <nav className="navbar2">
-                <div className="navbar2_container">
-                </div>
-                <ul onClick={toggleHamburger}>
-                    <li onClick={() => scrollTo('login')}>
-                        <p>Login</p>
-                    </li>
-                    <li onClick={() => scrollTo('homescreen')}>
-                        <p>Homescreen</p>
-                    </li>
-                    <li onClick={() => scrollTo('about')}>
-                        <p>About</p>
-                    </li>
-
-                </ul>
-            </nav>
-        )
-    }
-
+    /*
     const hamburgerMenu = () => {
         return(
             
             <nav className="navbar2_hamburger">
                 <div className='navbar2_hamburger_container'>
                     <div className="navbar2_hamburger_image">
-                        <img className="navbar2_brand" src={Logo}/>
                     </div>
-                    <input type='checkbox' />
+                    <input id="navbar2_hamburger_input" type='checkbox' />
                     <ul className='navbar2_hamburger_menu'>
                         <li onClick={() => scrollTo('login')}>
                             <p>Login</p>
@@ -64,10 +42,33 @@ function Navbar2(){
 
         )
     }
-
+    */
     return(
         <>
-            {window.innerWidth  > 500 ? longbar() : hamburgerMenu()}
+           <nav className="navbar2">
+                <div id="navbar2_hamburger_container">
+                    <div id="navbar2_hamburger_line1"/>
+                    <div id="navbar2_hamburger_line2"/>
+                    <div id="navbar2_hamburger_line3"/>
+
+                </div>
+                <input id="navbar2_hamburger_input" type='checkbox' />
+
+                <div>
+                    <ul id="navbar2_list">
+                        <li onClick={() => scrollTo('SigninSignup')}>
+                        <p className='navbar2_font '>Signin/Si</p>
+                        </li>
+                        <li onClick={() => scrollTo('homescreen')}>
+                        <p className='navbar2_font '>Homescreen</p>
+                        </li>
+                        <li onClick={() => scrollTo('about')}>
+                        <p className='navbar2_font '>About</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
         </>
     );
 }
