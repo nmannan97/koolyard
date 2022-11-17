@@ -16,6 +16,9 @@ function Navbar(){
                 <Link to='/profile'>Profile</Link>
             </li>
             <li>
+                <Link to='/'>Message center</Link>
+            </li>
+            <li>
                 <Link to='/'>Logout</Link>
             </li>
         </ul>

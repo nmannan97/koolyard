@@ -55,7 +55,7 @@ function Navbar2(){
                         <li onClick={() => scrollTo('homepage')}>
                            <p>Homepage</p>
                         </li>
-                        <li onClick={() => scrollTo('About')}>
+                        <li onClick={() => scrollTo('about')}>
                            <p>About</p>
                         </li>
                     </ul>

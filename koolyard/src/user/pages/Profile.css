@@ -1,8 +1,16 @@
+#profile{
+    min-height: 100vh;
+    height: 100%;
+    background-color: #506b92;;
+}
+
 #client_column {
     display: absolute;
     padding-top: 45vh;
     padding-bottom:  20px;
     justify-content: center;
+    min-height: 100%;
+    height: auto;
 }
 
 #client_row{
@@ -17,12 +25,11 @@
     background-color: white;
     border-radius: 100%;
     position: absolute;
-    top: -3.5%;
-    left: 5vw;
     transition: 0.5s;
     background: url(../pictures/Assets/UserProfile.png);
     background-size: contain;
 }
+/*
 #profile_user:hover{
     height: 400px;
     width: 400px;
@@ -34,6 +41,10 @@
     transition: 0.5s;
     background: url(../pictures/Assets/UserProfile.png);
     background-size: contain;
+}
+*/
+#profile_comments_container{
+    
 }
 #profile_message{
     height: 200px;
@@ -71,17 +82,11 @@
     left: 82vw;
     background-color: transparent;
 }
-#profile_background1{
+#profile_background{
     background-color: black;
-    height: 50vh;
+    min-height: 100%;
 }
-#profile_background2{
-    background-color: white;
-    min-height: 50vh;
-    position: absolute;
-    top: 50%;
 
-}
 #profile_input{
     display: none;
 }

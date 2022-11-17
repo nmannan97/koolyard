@@ -1,0 +1,25 @@
+#SignupSigninNav{
+    background: url(../../../../public/blackboard.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0;
+    background-color: transparent;
+    padding-top: 10vh; 
+}
+
+#SignupSigninNav_button{
+    position: relative;
+    left: 40%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    height: 300px;
+    width: 450px;
+    font-size: 1.33em;
+    border-radius: 15px;
+    background-color: antiquewhite;
+
+}

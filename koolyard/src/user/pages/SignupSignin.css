@@ -1,13 +1,9 @@
-#login{
-    background: url(../../../../public/blackboard.jpg);
+#SignupSignin{
+    height: 90vh;
+    background: url(../../../public/blackboard.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-position: bottom;
-    width: 100vw;
-    height: 100vh;
-    margin-bottom: 0;
-    background-color: transparent;
-    padding-top: 10vh; 
 }
 
 #Password_users,
@@ -15,7 +11,7 @@
     width: 15vw;
     height: 40px;
 }
-#login_centerpiece{
+#SignupSignin_centerpiece{
     display: flex;
     border-radius: 100%;
     justify-content: center;
@@ -25,14 +21,15 @@
     height: calc(10vw + 20px)
 }
 
-#login_signin{
+
+/*Class names*/
+.SignupSignin_signin{
     width: 10vw;
     height: 4.5vh;
     
-}
-/*Class names*/
+} 
 
-.login_container {
+.SignupSignin_container {
     display: flex;
     margin: auto ; 
     justify-content: center;
@@ -40,14 +37,20 @@
     padding-top: 10vh;
 }
 
-.login_item {
+.SignupSignin_item {
     padding: 20px;
     margin: auto;
+    display: grid;
+    grid-template-columns: 300px 300px;
     
 }
 
-.login_font{
+.SignupSignin_font{
     font: italic calc(1vw + 1em) "Fira Sans", serif;
     color: white;
+    margin: auto;
+}
+
+.SignupSignin_columns{
     margin: auto;
 }
