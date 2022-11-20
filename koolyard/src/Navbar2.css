@@ -1,4 +1,8 @@
-  .navbar2 {
+#navbar2_list1{
+  pointer-events: none;
+  opacity: 1;
+}
+ .navbar2 {
     background-color: #333333;
     display: flex;
     /* let's align the items so everything is nice and centered */
@@ -17,12 +21,13 @@
   #navbar2_list {
    /* Let's reset the margin and padding of the list so it's is flush. */
     margin: 1%;
-    padding: 1%;
+    padding-top: 10%;
     /* Let's remove the bullet points */
     list-style-type: none;
     /* display the list flex and align the items centered */
     display: flex;
     justify-content: right;
+    pointer-events: all;
   }
 
   .navbar2_font{
@@ -60,7 +65,13 @@
     opacity: 0;
     width: 50px;
     height: 50px;
+    pointer-events: none;
   }
+#navbar2_list_hamburger{
+  opacity: 0;
+  height: 0px;
+  pointer-events: none;
+}
   @media (max-width: 400px) {
     #navbar2_hamburger_input input[type='checkbox'],
     #navbar2_hamburger_input{
@@ -68,12 +79,33 @@
     position: absolute;
     margin-left: 10px;
     margin-top: 50%;
-  }
-
-  #navbar2_hamburger_input[type='checkbox']{
     opacity: 1;
     width: 50px;
     height: 50px;
+    pointer-events: all;
+  }
+
+  #navbar2_hamburger_input:checked + #navbar2_list_hamburger{
+    transform: translateX(10%);
+  }
+  #navbar2_list1{
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  #navbar_list2{
+
+  }
+
+  #navbar2_list_hamburger{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar2_list_hamburger~{
+
   }
 
   .navbar2 {

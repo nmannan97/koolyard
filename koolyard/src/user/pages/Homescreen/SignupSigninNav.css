@@ -11,15 +11,14 @@
 }
 
 #SignupSigninNav_button{
-    position: relative;
-    left: 40%;
-    right: 50%;
-    top: 50%;
+    margin: auto;
+    /*top: 50%;
     bottom: 50%;
-    height: 300px;
-    width: 450px;
-    font-size: 1.33em;
+    height: 15%;
+    width: 30%;*/
+    font-size: 40%;
     border-radius: 15px;
     background-color: antiquewhite;
+    
 
 }

@@ -14,9 +14,7 @@ export default function Homepage() {
         <>
             <Navbar2/>
             <div id='Homepage'>
-                <Login />
                 <Homescreen />
-                <About />
             </div>
             <Footer />
         </>

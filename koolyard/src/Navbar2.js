@@ -55,18 +55,32 @@ function Navbar2(){
                 <input id="navbar2_hamburger_input" type='checkbox' />
 
                 <div>
-                    <ul id="navbar2_list">
-                        <li onClick={() => scrollTo('SigninSignup')}>
-                        <p className='navbar2_font '>Signin/Si</p>
-                        </li>
-                        <li onClick={() => scrollTo('homescreen')}>
-                        <p className='navbar2_font '>Homescreen</p>
-                        </li>
-                        <li onClick={() => scrollTo('about')}>
-                        <p className='navbar2_font '>About</p>
-                        </li>
+                    <div id='navbar2_list1'>
+                        <ul id="navbar2_list">
+                            <Link to='/signupsignin'>
+                                <li>
+                                    <p className='navbar2_font '>Signin/Si</p>
+                                </li>
+                            </Link>
+                            <li onClick={() => scrollTo('homescreen')}>
+                                <p className='navbar2_font '>Homescreen</p>
+                            </li>
 
-                    </ul>
+                        </ul>
+                    </div>
+                    <div id='navbar2_list2'>
+                        <ul for="navbar2_hamburger_input" id="navbar2_list_hamburger">
+                            <Link to='/signupsignin'>
+                                <li>
+                                    <button className='navbar2_font '>Signin/Si</button>
+                                </li>
+                            </Link>
+                            <li onClick={() => scrollTo('homescreen')}>
+                                <p className='navbar2_font '>Homescreen</p>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </>

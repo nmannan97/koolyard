@@ -17,7 +17,7 @@ function Login() {
 
             <Link to='/signupsignin'>
                 <button id="SignupSigninNav_button">
-                    Press me to go to <br/> login or sign up
+                    Press me to go to login or sign up
                 </button>
             </Link>
             
