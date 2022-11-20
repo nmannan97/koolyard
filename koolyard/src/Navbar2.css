@@ -30,11 +30,6 @@
     pointer-events: all;
   }
 
-  .navbar2_font{
-    font: italic calc(0.5em + 1vw) "Fira Sans", serif;
-    color: white;
-  }
-
 
   .navbar2_font {
     color: #e7e7e7;
@@ -45,6 +40,8 @@
         of the container.
     */
     display: block;
+    font: italic calc(0.5em + 1vw) "Fira Sans", serif;
+    color: white;
   }
   
   /* When a user hovers, focuses or if the link is active change the background */
