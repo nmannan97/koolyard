@@ -1,0 +1,56 @@
+#SignupSignin{
+    height: 90vh;
+    background: url(../../../public/blackboard.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: bottom;
+}
+
+#Password_users,
+#Username_users{
+    width: 15vw;
+    height: 40px;
+}
+#SignupSignin_centerpiece{
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20vh;
+    height: calc(10vw + 20px)
+}
+
+
+/*Class names*/
+.SignupSignin_signin{
+    width: 10vw;
+    height: 4.5vh;
+    
+} 
+
+.SignupSignin_container {
+    display: flex;
+    margin: auto ; 
+    justify-content: center;
+    top: 10vh;
+    padding-top: 10vh;
+}
+
+.SignupSignin_item {
+    padding: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    
+}
+
+.SignupSignin_font{
+    font: italic calc(1vw + 1em) "Fira Sans", serif;
+    color: white;
+    margin: auto;
+}
+
+.SignupSignin_columns{
+    margin: auto;
+}
