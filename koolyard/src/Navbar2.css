@@ -1,110 +1,3 @@
-#navbar2_list1{
-  pointer-events: none;
-  opacity: 1;
-}
- .navbar2 {
-    background-color: #333333;
-    display: flex;
-    /* let's align the items so everything is nice and centered */
-    position: fixed;
-    justify-content: space-between;
-    width: 100%;
-    height: 12%;
-    overflow: hidden;
-    z-index: 1;
-    margin-bottom: 10px;
-  }
-  .navbar2_hamburger_container{
-    opacity: 0;
-  }
-  /* We want all links in the navbar2 to be #e7e7e7 */
-  #navbar2_list {
-   /* Let's reset the margin and padding of the list so it's is flush. */
-    margin: 1%;
-    padding-top: 10%;
-    /* Let's remove the bullet points */
-    list-style-type: none;
-    /* display the list flex and align the items centered */
-    display: flex;
-    justify-content: right;
-    pointer-events: all;
-  }
-
-
-  .navbar2_font {
-    color: #e7e7e7;
-    padding: 24px;
-    margin: auto;
-    /*Let's make the anchor display block.
-       This will ensure when we hover, focus, or is active we get the full width and height 
-        of the container.
-    */
-    display: block;
-    font: italic calc(0.5em + 1vw) "Fira Sans", serif;
-    color: white;
-  }
-  
-  /* When a user hovers, focuses or if the link is active change the background */
-  .navbar2 ul p:hover,
-  .navbar2 ul p:focus,
-  .navbar2 ul .active {
-    background-color: #272727;
-  }
-
-  #navbar2_hamburger_input input[type='checkbox'],
-    #navbar2_hamburger_input{
-    display: block;
-    position: absolute;
-    margin-left: 10px;
-  }
-
-  #navbar2_hamburger_input[type='checkbox']{
-    opacity: 0;
-    width: 50px;
-    height: 50px;
-    pointer-events: none;
-  }
-#navbar2_list_hamburger{
-  opacity: 0;
-  height: 0px;
-  pointer-events: none;
-}
-  @media (max-width: 400px) {
-    #navbar2_hamburger_input input[type='checkbox'],
-    #navbar2_hamburger_input{
-    display: block;
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 50%;
-    opacity: 1;
-    width: 50px;
-    height: 50px;
-    pointer-events: all;
-  }
-
-  #navbar2_hamburger_input:checked + #navbar2_list_hamburger{
-    transform: translateX(10%);
-  }
-  #navbar2_list1{
-    pointer-events: none;
-    opacity: 0;
-  }
-
-  #navbar_list2{
-
-  }
-
-  #navbar2_list_hamburger{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  #navbar2_list_hamburger~{
-
-  }
-
   .navbar2 {
     background-color: #333333;
     display: flex;
@@ -117,8 +10,14 @@
     z-index: 1;
     margin-bottom: 10px;
   }
+  
   /* We want all links in the navbar2 to be #e7e7e7 */
-  #navbar2_list {
+  .navbar2 p {
+    color: #e7e7e7;
+    vertical-align: center;
+  }
+
+  .navbar2 ul {
    /* Let's reset the margin and padding of the list so it's is flush. */
     margin: 1%;
     padding: 1%;
@@ -129,13 +28,35 @@
     justify-content: right;
   }
 
-  .navbar2_font{
-    font: italic calc(0.5em + 1vw) "Fira Sans", serif;
+  .navbar2 .navbar2_brand {
+    /*Let's make the anchor display block.
+       This will ensure when we get the full width of the container.
+    */
+    display: flex;
+    border-radius: 100%;
+    width: calc(100px + 1vw);
+    padding: 10px;
+    margin: auto;
+   /* Remove padding from top/bottom and add 24px padding right/left */
+   justify-items: left;
+   float: left;
+  }
+  .navbar2 .navbar2_font{
+    font: italic calc(3em + 1vw) "Fira Sans", serif;
     color: white;
   }
 
+  .navbar2 .navbar2_container{
+    display: table;
+    column-count: 2;
+  }
+  .navbar2 #navbar2_yourshot{
+    justify-content: right;
+    margin-left: calc(150px + 1vw);
+    margin-top: 50px;
+  }
 
-  .navbar2_font {
+  .navbar2 ul li p {
     color: #e7e7e7;
     padding: 24px;
     margin: auto;
@@ -152,29 +73,76 @@
   .navbar2 ul .active {
     background-color: #272727;
   }
-  #navbar2_hamburger_line1{
-    margin-top: 50%;
-    background-color: black;
-    width: 50px;
-    height: 5px;
-    border-radius: 15px;
-    margin-left: 10px;
-  }
-  #navbar2_hamburger_line2{
-    background-color: black;
-    width: 50px;
-    height: 5px;
-    border-radius: 15px;
-    margin-top:4px;
-    margin-left: 10px;
-  }
-  #navbar2_hamburger_line3{
-    background-color: black;
-    width: 50px;
-    height: 5px;
-    border-radius: 15px;
-    margin-top: 4px;
+
+  .navbar2_hamburger .navbar2_hamburger_container input[type='checkbox'],
+  .navbar2_hamburger .navbar2_hamburger_container .navbar2_hamburger_image{
+    display: block;
+    position: absolute;
     margin-left: 10px;
   }
 
-  }   
+  .navbar2_hamburger .navbar2_hamburger_container input[type='checkbox']{
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar2_hamburger{
+    position: fixed;
+    z-index: 1;
+  }
+
+  .navbar2_hamburger .navbar2_hamburger_container {
+    background-color: #333333;
+    display: flex;
+    /* let's align the items so everything is nice and centered */
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    height: 75px;
+    width: 100vw;
+    z-index: 10;
+  }
+
+  .navbar2_hamburger .navbar2_hamburger_container .navbar2_hamburger_menu {
+      margin-top: 105vh;
+      background: #fff;
+      height: 100vh;
+      width: 100vw;
+      transform: translate(-150%);
+      display: flex;
+      flex-direction: column;
+      margin-right: 40px;
+      padding-left: 50px;
+      transition: transform 0.5s ease-in-out;
+      box-shadow: 5px 0px 10px 0px #aaa;
+  }
+  .navbar2_hamburger .navbar2_hamburger_container .navbar2_hamburger_menu li{
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  .navbar2_hamburger .navbar2_hamburger_container input:checked ~ .navbar2_hamburger_menu {
+    transform: translateX(0%);
+  }
+
+  .navbar2_hamburger .navbar2_hamburger_container .navbar2_hamburger_image .navbar2_brand{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar2_hamburger .navbar2_hamburger_container .navbar2_hamburger_image {
+    /*Let's make the anchor display block.
+       This will ensure when we get the full width of the container.
+    */
+    display: flex;
+    border-radius: 100%;
+    width: calc(100px + 1vw);
+    padding: 10px;
+    margin: auto;
+   /* Remove padding from top/bottom and add 24px padding right/left */
+   justify-items: left;
+   float: left;
+  }

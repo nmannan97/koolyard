@@ -25,29 +25,40 @@ function Profile(){
         
     }
 
-    var add
     return(
         <>
-        <Navbar />
+        
         <div id="profile">
-            <div id="profile_background">
-                <div id="profile_user_background">   
-                    <img id="profile_user" src={userProfile}/>
-                </div>
+            <Navbar />
+                <div id="profile_background1">
+                
+                
+                <div id="profile_background2">
+                    <div id="profile_user_background">   
+                        <img id="profile_user" src={userProfile}/>
+                    </div>
+                    <Link to='/messages'><img id="profile_message" src={message}/></Link>
                     
-                <label for="profile_input" class="label_display form-label">
+                    <label for="profile_input" class="label_display form-label">
                         
-                    <img id="profile_select" src={selectMain}/>
-                </label>
-                <input onChange={(e) => setUserProfile(URL.createObjectURL(e.target.files[0]))} id="profile_input" type="file"/>
-            </div>
-            <div id="profile_comments_container">
+                        <img id="profile_select" src={selectMain}/>
+                        <img id="profile_select2" src={select1}/>
+                    </label>
+                    <input onChange={(e) => setUserProfile(URL.createObjectURL(e.target.files[0]))} id="profile_input" type="file"/>
 
-            </div>
+                    <img id="profile_share" src={share}/>
+                    <div id="client_column">
+                        <div id="client_row">
+                            {addPhotos()}
+                        </div>
+                    </div>
 
+                </div>
+                
+            </div>
+            
         </div>
         <Footer />
-
         </>
     );
 }
