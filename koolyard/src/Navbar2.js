@@ -33,7 +33,6 @@ function Navbar2(){
                     <li onClick={() => scrollTo('about')}>
                         <p>About</p>
                     </li>
-
                 </ul>
             </nav>
         )

@@ -12,8 +12,8 @@
 /*Classnames */
 .color_padding_outer{
     background-color: #333333;
-    margin: 10% 0% 15% 0%;
-    padding: 5% 0%;
+    margin: 10% 0% 10% 0%;
+    padding: 3% 0%;
 }
 
 .color_padding_inner{
@@ -108,5 +108,12 @@
     }
     .flex2{
         width: 75%;
+    }
+    .color_padding_outer{
+        max-width: 85%;
+        margin: auto;
+    }
+    #meet_the_team{
+        max-width: 50%
     }
 }

@@ -11,30 +11,15 @@ export default function Footer(){
     return(
         <>
             <div id="footer">
-                <div id="footer_container">
-                    <div>
-                        <a className="footer_font">about us</a>
-                        <a id="footer_contact" className="footer_font">contact</a>
-                    </div>
-                    <div id="footer_social_media">
-                        <ul id="footer_images">
-                            <li>
-                                <a className="footer_link">
-                                    <img id="footer_instagram" src={Instagram}/> 
-                                </a>
-                            </li>
-                            <li>
-                                <a className="footer_link">
-                                    <img id="footer_twitter" src={Twitter}/> 
-                                </a>
-                            </li>
-                            <li>
-                                <a className="footer_link">
-                                    <img id="footer_facebook" src={Facebook}/> 
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div>
+                    <table id="footer_table">
+                        <tr style={{width:"100%"}}>
+                            <th id="footer_th" className="footer_link"><p style={{fontWeight:"normal"}}>Contact Us</p></th>
+                            <th id="footer_th" className="footer_link"><img id="footer_image" src={Instagram}></img></th>
+                            <th id="footer_th" className="footer_link"><img id="footer_image" src={Twitter}></img></th>
+                            <th id="footer_th" className="footer_link"><img id="footer_image"src={Facebook}></img></th>
+                        </tr>   
+                    </table>
                 </div>
             </div>
         </>
