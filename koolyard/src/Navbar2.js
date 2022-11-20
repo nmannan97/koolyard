@@ -17,7 +17,27 @@ function Navbar2(){
         setHamburger(!hamburger)
     }
 
-    /*
+    const longbar = () => {
+        return(
+            <nav className="navbar2">
+                <div className="navbar2_container">
+                </div>
+                <ul onClick={toggleHamburger}>
+                    <li onClick={() => scrollTo('login')}>
+                        <p>Login</p>
+                    </li>
+                    <li onClick={() => scrollTo('homescreen')}>
+                        <p>Homescreen</p>
+                    </li>
+                    <li onClick={() => scrollTo('about')}>
+                        <p>About</p>
+                    </li>
+
+                </ul>
+            </nav>
+        )
+    }
+
     const hamburgerMenu = () => {
         return(
             
@@ -42,7 +62,6 @@ function Navbar2(){
 
         )
     }
-    */
     return(
         <>
            <nav className="navbar2">

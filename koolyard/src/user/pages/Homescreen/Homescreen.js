@@ -12,7 +12,7 @@ function Homescreen(){
     return(
         <div id="homescreen">
                 <p className="homescreen_h1 homescreen_gradient" style={{maxWidth:"19ch"}}>Welcome to SkoolYard</p><br/>
-                <p>"The Classroom Begins At SkoolYard"</p>
+                <p style={{fontSize:"1.5em"}}>"The Classroom Begins At SkoolYard"</p><br/>
 
 
 
@@ -49,7 +49,7 @@ function Homescreen(){
             </div>
             
                 <div>
-                    <p className="homescreen_h1 homescreen_gradient" style={{maxWidth:"10ch"}}>
+                    <p className="homescreen_h1 homescreen_gradient" style={{maxWidth:"11ch"}}>
                         Our Product
                     </p>
                     <p className='homescreen_h2'>For Online Education Platforms:</p>
@@ -86,7 +86,7 @@ function Homescreen(){
 
 
 
-                <div className='color_padding_outer'>
+                <div id="meet_the_team" className='color_padding_outer'>
                 <p className="homescreen_h2" style={{color:"white"}}>Meet the team</p>
                         <div className="homepage_polaroid">
                             <p>Naeem</p>
