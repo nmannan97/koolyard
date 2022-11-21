@@ -23,15 +23,14 @@ function Navbar2(){
             <nav className="navbar2">
                 <div className="navbar2_container">
                 </div>
-                <ul onClick={toggleHamburger}>
-                    <li onClick={() => scrollTo('login')}>
-                        <p>Login</p>
+                <ul id='navbar2_list' onClick={toggleHamburger}>
+                    <li>
+                        <Link to='/signupsignin'>
+                            <p className='navbar2_font'>Login/Signup</p>
+                        </Link>
                     </li>
                     <li onClick={() => scrollTo('homescreen')}>
-                        <p>Homescreen</p>
-                    </li>
-                    <li onClick={() => scrollTo('about')}>
-                        <p>About</p>
+                        <p className='navbar2_font'>Homescreen</p>
                     </li>
                 </ul>
             </nav>
@@ -48,14 +47,13 @@ function Navbar2(){
                     </div>
                     <input type='checkbox' />
                     <ul className='navbar2_hamburger_menu'>
-                        <li onClick={() => scrollTo('login')}>
-                            <p>Login</p>
+                        <li>
+                            <Link to='/signupsignin'>
+                                <p className='navbar2_font'>Login/Signup</p>
+                            </Link>
                         </li>
                         <li onClick={() => scrollTo('homepage')}>
                            <p>Homepage</p>
-                        </li>
-                        <li onClick={() => scrollTo('About')}>
-                           <p>About</p>
                         </li>
                     </ul>
                 </div>

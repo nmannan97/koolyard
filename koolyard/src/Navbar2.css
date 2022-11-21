@@ -12,12 +12,8 @@
   }
   
   /* We want all links in the navbar2 to be #e7e7e7 */
-  .navbar2 p {
-    color: #e7e7e7;
-    vertical-align: center;
-  }
 
-  .navbar2 ul {
+  #navbar2_list {
    /* Let's reset the margin and padding of the list so it's is flush. */
     margin: 1%;
     padding: 1%;
@@ -28,7 +24,7 @@
     justify-content: right;
   }
 
-  .navbar2 .navbar2_brand {
+  .navbar2_brand {
     /*Let's make the anchor display block.
        This will ensure when we get the full width of the container.
     */
@@ -41,22 +37,9 @@
    justify-items: left;
    float: left;
   }
-  .navbar2 .navbar2_font{
-    font: italic calc(3em + 1vw) "Fira Sans", serif;
+ .navbar2_font{
+    font: 2vh "FiraSans";
     color: white;
-  }
-
-  .navbar2 .navbar2_container{
-    display: table;
-    column-count: 2;
-  }
-  .navbar2 #navbar2_yourshot{
-    justify-content: right;
-    margin-left: calc(150px + 1vw);
-    margin-top: 50px;
-  }
-
-  .navbar2 ul li p {
     color: #e7e7e7;
     padding: 24px;
     margin: auto;
@@ -65,6 +48,11 @@
         of the container.
     */
     display: block;
+  }
+
+  .navbar2_container{
+    display: table;
+    column-count: 2;
   }
   
   /* When a user hovers, focuses or if the link is active change the background */
