@@ -91,7 +91,7 @@ function Homescreen(){
                         <div className="homepage_polaroid">
                             <p>Naeem</p>
                             <img className = "img_polaroid" src={Naeem} />  
-                            <p>An electrical engineer from SJSU working on the frontend of YourShot</p>                           
+                            <p>An electrical engineer from SJSU working on the frontend of SkoolYard</p>                           
                         </div>
 
                         <div className="homepage_polaroid">
