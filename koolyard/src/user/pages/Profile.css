@@ -24,7 +24,6 @@
     top: -3.5%;
     left: 5vw;
     transition: 0.5s;
-    background: url(../pictures/Assets/UserProfile.png);
     background-size: contain;
 }
 #profile_user:hover{
@@ -36,7 +35,6 @@
     top: -8%;
     left: 5vw;
     transition: 0.5s;
-    background: url(../pictures/Assets/UserProfile.png);
     background-size: contain;
 }
 #profile_message{

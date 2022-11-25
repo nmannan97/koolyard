@@ -4,7 +4,6 @@ import "./Login.css"
 import {useNavigate} from "react-router-dom";
 import {useState} from 'react';
 
-import Logo from "../../pictures/Logo.PNG" // C:\Users\balto\Desktop\James\YourShot\yourshot\src\user\pictures
 import Homescreen from "./Homescreen";
 import Navbar2 from "../../../Navbar2";
 import Explore from "./About";

@@ -2,7 +2,6 @@ import './Navbar.css'
 import {Link} from 'react-router-dom'
 import { useState } from 'react'
 
-import Logo from "./user/pictures/YourShotLogo2.PNG"
 function Navbar(){
 
     return(
