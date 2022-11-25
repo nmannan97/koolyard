@@ -13,6 +13,7 @@ export default function App() {
   <div className="App"> 
       <div className="menu">   
         <Routes>
+          <Route exact path='/' element={<Homepage/>} />
           <Route exact path='/koolyard' element={<Homepage/>} />
           <Route exact path='/homescreen' element={<Homescreen/>}/>
           <Route exact path='/messages' element={<Messages/>}/>

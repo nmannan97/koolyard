@@ -1,9 +1,3 @@
-
-a {
-    text-decoration: none;
-    font-size: 2.33em;
-  }
-
   .navbar {
     background-color: #333333;
     display: flex;
@@ -11,6 +5,7 @@ a {
     position: relative;
     justify-content: space-between;
     height: 10vh;
+    width: 100%;
   }
   
   /* We want all links in the navbar to be #e7e7e7 */
