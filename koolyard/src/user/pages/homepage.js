@@ -13,9 +13,7 @@ export default function Homepage() {
     return(
         <>
             <Navbar2/>
-            <div id='Homepage'>
-                <Homescreen />
-            </div>
+            <Homescreen />
             <Footer />
         </>
     )
