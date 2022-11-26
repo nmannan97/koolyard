@@ -60,7 +60,7 @@ export default function SignupSignin() {
                 </div>
 
                 <br/>
-                <Link to='/koolyard'>
+                <Link to='/'>
                     <p>back to homepage</p>
                 </Link>
             </div>
