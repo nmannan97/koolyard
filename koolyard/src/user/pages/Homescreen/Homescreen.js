@@ -1,6 +1,6 @@
 import './Homescreen.css';
 
-//Images//
+//Images
 import Naeem from "../../pictures/teammates/Naeem.jpeg"
 import NoUser from "../../pictures/noUser.png"
 import DialogueIcon from "../../pictures/Assets/DialogueIcon.png"
