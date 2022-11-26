@@ -15,10 +15,7 @@ export default function App() {
         <Routes>
           <Route exact path='/' element={<Homepage/>} />
           <Route exact path='/koolyard' element={<Homepage/>} />
-          <Route exact path='/homescreen' element={<Homescreen/>}/>
           <Route exact path='/messages' element={<Messages/>}/>
-          <Route exact path='/about' element={<About/>}/>
-          <Route exact path='/notifications' element={<Notifications/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
           <Route exact path='/signupsignin' element={<SignupSignin/>}/>
         </Routes>
