@@ -13,8 +13,7 @@ export default function App() {
   <div className="App"> 
       <div className="menu">   
         <Routes>
-          <Route element={<Homepage/>} />
-          <Route exact path='master.d1p7cqoiehhyre.amplifyapp.com' element={<Homepage/>} />
+          <Route exact path='' element={<Homepage/>} />
           <Route exact path='master.d1p7cqoiehhyre.amplifyapp.com/' element={<Homepage/>} />
           <Route exact path='/messages' element={<Messages/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
