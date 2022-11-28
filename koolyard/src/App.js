@@ -12,9 +12,7 @@ import SignupSignin from "./user/pages/SignupSignin";
 export default function App() {
   return (
   <div className="App"> 
-      <div className="menu">   
       <BrowserRouter>
-
         <Routes>
           <Route exact path='/' element={<Homepage/>} />
           <Route exact path='/koolyard' element={<Homepage/>} />
@@ -23,8 +21,6 @@ export default function App() {
           <Route exact path='/signupsignin' element={<SignupSignin/>}/>
         </Routes>
       </BrowserRouter>
-
-      </div>
   </div>
   );
 }
