@@ -1,4 +1,5 @@
 import {Routes, Route} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 import Homescreen from "./user/pages/Homescreen/Homescreen";
 import Messages from './user/pages/Messages';
@@ -12,6 +13,8 @@ export default function App() {
   return (
   <div className="App"> 
       <div className="menu">   
+      <BrowserRouter>
+
         <Routes>
           <Route exact path='' element={<Homepage/>} />
           <Route exact path='master.d1p7cqoiehhyre.amplifyapp.com/' element={<Homepage/>} />
@@ -19,6 +22,8 @@ export default function App() {
           <Route exact path='/profile' element={<Profile/>}/>
           <Route exact path='/signupsignin' element={<SignupSignin/>}/>
         </Routes>
+      </BrowserRouter>
+
       </div>
   </div>
   );
