@@ -16,8 +16,8 @@ export default function App() {
       <BrowserRouter>
 
         <Routes>
-          <Route exact path='' element={<Homepage/>} />
-          <Route exact path='master.d1p7cqoiehhyre.amplifyapp.com/' element={<Homepage/>} />
+          <Route exact path='/' element={<Homepage/>} />
+          <Route exact path='/koolyard' element={<Homepage/>} />
           <Route exact path='/messages' element={<Messages/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
           <Route exact path='/signupsignin' element={<SignupSignin/>}/>
